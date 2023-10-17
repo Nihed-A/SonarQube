@@ -6,7 +6,7 @@ pipeline{
     stages{
        stage('GetCode'){
             steps{
-                git 'https://github.com/ahmedbalti/5sae6_groupe5_kaddem'
+                git 'https://github.com/Nihed-A/SonarQube'
             }
          }        
        stage('Build'){
